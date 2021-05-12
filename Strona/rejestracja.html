@@ -1,0 +1,49 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title> Salon fryzjerski </title>
+</head>
+<body>
+<div id="top">
+<img src="baner.png"> 
+</div>
+<div id="menu">
+<a class="mennu" href="index.html"> STRONA GŁÓWNA </a>
+<a class="mennu" href="uslugi.html"> NASZE USŁUGI </a>
+<a class="mennu" href="kontakt.html"> KONTAKT </a>
+<a class="mennu" href="rejestracja.html"> ZAPISY NA STRZYŻENIA ONLINE </a>
+<a class="mennu" href="https://www.fryzomania.pl/"> Polecane strony </a>
+</div>
+<div id="right">
+
+<form action="rejestracja.php" method="POST" id="for">
+<h1> Formularz na zapisy do fryzjera: </h1> <br>
+<h2> Rejestracja: </h2> 
+<b>Imię: </b><input type="text" name="imie"><br>
+<b>Nazwisko: </b><input type="text" name="nazwisko"><br>
+<b>Data: </b><input type="text" name="data" placeholder="YYYY-MM-DD" required 
+pattern="(?:19|20)[0-9]{2}-(?:(?:0[1-9]|1[0-2])-(?:0[1-9]|1[0-9]|2[0-9])|(?:(?!02)(?:0[1-9]|1[0-2])-(?:30))|(?:(?:0[13578]|1[02])-31))" 
+title="Enter a date in this format YYYY-MM-DD"/><br>
+<b>Godzina:</b> <input type="text" name="godzina"><br>
+<h2> Fryzjer: </h2>
+<b>Imię: </b><input type="text" name="imiee"> <br>
+<b>Nazwisko: </b><input type="text" name="nazwiskoo"><br>
+<br>
+<input type="reset" value="wyczyść">
+<input type="submit" value="zajerestruj" name="oblicz">
+</form>
+
+</div>
+<div id="left">
+<center>
+<img class="zdjecie" src="cos1.png"> <br>
+<img class="zdjecie" src="cos.png"><br>
+<img class="zdjecie" src="cos2.png"><br>
+</center>
+</div>
+<div id="stopka">
+<p> Autor strony: INiS1_3.1, Nr albumu: 44895 </p>
+</div>
+</body>
+</html>

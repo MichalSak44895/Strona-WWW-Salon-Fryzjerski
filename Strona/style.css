@@ -1,0 +1,59 @@
+body {
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	padding: auto;
+	font-family: Arial;
+}
+#top {
+	width: 100%;
+	text-align: center;
+	height: 170px;
+	
+	background: #ffc299;
+	float: left;
+}
+.mennu{
+	background: #ff6600;
+	color: white;
+	text-align: center;
+	font-size: 150%;
+	width: 20%;
+	float: left;
+	height: 55px;
+	
+}
+#right {
+	background: #ffa568;
+	height: 720px;
+	width: 75%;
+	float: left;
+
+}
+#left {
+	background: #f5c889;
+	height: 720px;
+	width: 25%;
+	float: left;
+	
+}
+#stopka {
+	background: #ffc34d;
+	font-size: 120%;
+	
+	clear: both;
+}
+.maps {
+	margin: 25px;
+}
+#for {
+	margin-left: 350px;
+	margin-top: 70px;
+}
+.zdjecie{
+	margin-top: 22px;
+	
+}
+h3 {
+	word-spacing: 10px;
+}
